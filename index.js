@@ -1,12 +1,11 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const { verifySignature } = require('@vonage/jwt');
 const config = require('./config');
 const messagingService = require('./messagingService');
 
 const app = express();
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 const PORT = config.port;
 const VONAGE_API_SIGNATURE_SECRET = config.vonage.signatureSecret;
