@@ -4,6 +4,8 @@ A Node.js application that demonstrates sending Rich Communications Services (RC
 
 > You can find full step-by-step instructions on the [Vonage Developer Blog](#). (Not published yet)
 
+[![Final App Preview](https://img.youtube.com/vi/VwTZiua2P8U/hqdefault.jpg)](https://www.youtube.com/shorts/VwTZiua2P8U)
+
 ---
 
 ## Prerequisites
