@@ -1,7 +1,7 @@
 // messagingService.js
 const { Vonage } = require('@vonage/server-sdk');
-const config = require('./config');
-const messageTemplates = require('./messageTemplates');
+const config = require('../../config/config');
+const messageTemplates = require('../templates/messageTemplates');
 
 // Initialize the Vonage client with our application credentials
 const vonage = new Vonage({

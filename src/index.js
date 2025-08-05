@@ -1,7 +1,7 @@
 const express = require('express');
 const { verifySignature } = require('@vonage/jwt');
-const config = require('./config');
-const messagingService = require('./messagingService');
+const config = require('../config/config');
+const messagingService = require('./services/messagingService');
 
 const app = express();
 app.use(express.json());

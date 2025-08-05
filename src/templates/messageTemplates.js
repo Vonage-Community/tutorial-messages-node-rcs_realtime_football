@@ -1,5 +1,5 @@
 // messageTemplates.js
-const config = require('./config');
+const config = require('../../config/config');
 module.exports = {
 
   // Initial Suggested Reply Message to Kick-off
